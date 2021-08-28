@@ -1,0 +1,56 @@
+html,body { height: 100%; margin: 0px; padding: 0px; }
+.main-1{
+    height: 85vh;
+}
+.nav{
+    width: 100%;
+    display: block;
+}
+.fh{
+    height: 100%;
+}
+.no-m{
+    margin: 0;
+    padding:0;
+    font-size: 5rem;
+}
+.spacer{
+    display: flex;
+    justify-content: space-between;
+} 
+.main-2{
+    height: 100vh;
+    
+}
+.main-3{
+    height: fit-content;
+}
+.footer{
+    height: 15vh;
+}
+.f-text{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    width: fit-content;
+}
+.abs{
+    position:absolute;
+}
+.rel{
+    position: relative;
+}
+.pos-1{
+    top: 10px;
+    right: 50px;
+    z-index: 2;
+}
+.pos-2{
+    top: 25px;
+    right: 10px;
+}
+.pos-3{
+    top: 25px;
+    right: 10px;
+    z-index: 3;
+}
